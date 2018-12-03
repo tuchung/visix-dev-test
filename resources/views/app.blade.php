@@ -4,16 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Tu Thien Chung</title>
+        <title>Visix-dev-test</title>
         {{-- favicon --}}
-
-        <link rel="shortcut icon" href="{{asset('images/code_fav.ico')}}" type="image/x-icon" />
 
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 
         {{-- script --}}
+
         <script src="{{ asset('js/jquery.js') }}" defer></script>
         {{-- <script src="{{ asset('js/semantic.js') }}" defer></script> --}}
         <script src="{{ asset('js/manifest.js') }}" defer></script>
@@ -40,4 +39,6 @@
             <sui-grid/>
         </div>
     </body>
+
+
 </html>
