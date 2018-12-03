@@ -11,12 +11,10 @@
 <script>
 export default {
     Name: 'floor2',
-    data: function () {
-        return{
-            p206: false,
-            p241: false,
-            p242: false,
-        }
+    props: {
+        p206: false,
+        p241: false,
+        p242: false,
     },
     components: {
     },

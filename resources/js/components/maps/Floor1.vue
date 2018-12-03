@@ -10,10 +10,8 @@
 <script>
 export default {
     Name: 'floor1',
-    data: function () {
-        return{
-            p104: false
-        }
+    props: {
+        p104: false
     },
     components: {
     },
