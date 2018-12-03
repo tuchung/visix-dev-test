@@ -10477,8 +10477,13 @@ a.text-dark:focus {
 }
 
 #app {
-  background-image: url("/images/code_background.jpg");
+  background-image: url("/images/background.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+}
+
+#directory {
+  margin-top: 580px;
+  margin-left: 100px;
+  width: 200px;
 }
 

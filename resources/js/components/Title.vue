@@ -1,9 +1,7 @@
 <template>
 <div class='title'>
-    <div class="logo"><img :src="'images/code_logo.png'"/></div>
-   <h1 class='title-margin-left header-margin' is="sui-header">Tu T. Chung</h1>
-   <sui-divider class="title-margin-left title-divider" section />
-   <h5 class="light-blue title-margin-left header-margin">Full Stack Developer</h5>
+    <div class="logo"><img :src="'images/itune.jpg'"/></div>
+   <h1 class='title-margin-left header-margin' is="sui-header">VISIX - DEV TEST</h1>
 </div>
 
 </template>
@@ -44,6 +42,10 @@ export default {
     width: 50px;
     margin-top: 10px;
     margin-left: 25px;
+    }
+
+    .title{
+        background-color: #00cc66;
     }
 
 </style>

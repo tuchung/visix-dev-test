@@ -11,8 +11,8 @@ window.Vue = require('vue');
 import SuiVue from 'semantic-ui-vue'
 import VueRouter from 'vue-router'
 import 'semantic-ui-vue'
-import Resume from './components/Resume'
-import About from './components/About'
+import App from './components/App'
+import Floor1 from './components/maps/Floor1'
 
 
 
@@ -31,13 +31,12 @@ import Icon from 'vue-awesome/components/Icon'
 Vue.use(SuiVue);
 Vue.use(VueRouter);
 // Vue.component('example-we', require('./components/ExampleComponent.vue'));
-Vue.component('navigation', require('./components/Navigation.vue'));
 Vue.component('title-content', require('./components/Title.vue'));
+Vue.component('directory', require('./components/Directory.vue'));
 Vue.component('v-icon', Icon)
 
 const routes = [
-    { path: '/', component: Resume }
-    ,{ path: '/about', component: About }
+    { path: '/', component: Floor1 }
 ]
 
 const router = new VueRouter({

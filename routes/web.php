@@ -12,17 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('resume');
+    return view('app');
 });
-
-Route::post('/mail/send', 'MailController@send');
-
-Route::get('/send', 'MailController@send');
-
-// Route::get('/about', function () {
-//     return view('about');
-// });
-
-// Auth::routes();
-
-// Route::get('/home', 'HomeController@index')->name('home');
